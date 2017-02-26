@@ -15,6 +15,7 @@
 		0419137B1E5B1E940025F258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041913791E5B1E940025F258 /* LaunchScreen.storyboard */; };
 		041913861E5B1E940025F258 /* NSURLSession__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041913851E5B1E940025F258 /* NSURLSession__Tests.m */; };
 		041913911E5B1E940025F258 /* NSURLSession__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041913901E5B1E940025F258 /* NSURLSession__UITests.m */; };
+		041913E41E5B2E720025F258 /* JYFProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 041913E31E5B2E720025F258 /* JYFProgressButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0419138C1E5B1E940025F258 /* NSURLSession下载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLSession下载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041913901E5B1E940025F258 /* NSURLSession__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession__UITests.m; sourceTree = "<group>"; };
 		041913921E5B1E940025F258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041913E21E5B2E720025F258 /* JYFProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFProgressButton.h; sourceTree = "<group>"; };
+		041913E31E5B2E720025F258 /* JYFProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFProgressButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0419136F1E5B1E940025F258 /* AppDelegate.m */,
 				041913711E5B1E940025F258 /* ViewController.h */,
 				041913721E5B1E940025F258 /* ViewController.m */,
+				041913E21E5B2E720025F258 /* JYFProgressButton.h */,
+				041913E31E5B2E720025F258 /* JYFProgressButton.m */,
 				041913741E5B1E940025F258 /* Main.storyboard */,
 				041913771E5B1E940025F258 /* Assets.xcassets */,
 				041913791E5B1E940025F258 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041913E41E5B2E720025F258 /* JYFProgressButton.m in Sources */,
 				041913731E5B1E940025F258 /* ViewController.m in Sources */,
 				041913701E5B1E940025F258 /* AppDelegate.m in Sources */,
 				0419136D1E5B1E940025F258 /* main.m in Sources */,
@@ -505,6 +511,7 @@
 				041913971E5B1E940025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041913981E5B1E940025F258 /* Build configuration list for PBXNativeTarget "NSURLSession下载Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				0419139A1E5B1E940025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0419139B1E5B1E940025F258 /* Build configuration list for PBXNativeTarget "NSURLSession下载UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				0419139D1E5B1E940025F258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
